@@ -1,3 +1,14 @@
+/* ------------------------------------------ */
+
+
+/* BASIC SETUP */
+
+
+/* #e67e22 */
+
+
+/* ------------------------------------------ */
+
 * {
     padding: 0;
     margin: 0;
@@ -18,20 +29,14 @@ html {
     margin: 0 auto;
 }
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-}
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+/* ------------------------------------------ */
+
+
+/* REUSABLE COMPONENTS */
+
+
+/* ------------------------------------------ */
 
 h1 {
     margin: 0;
@@ -41,6 +46,9 @@ h1 {
     text-transform: uppercase;
     word-spacing: 3px;
 }
+
+
+/* ------ BUTTON ------- */
 
 .btn:link,
 .btn:visited {
@@ -62,13 +70,13 @@ h1 {
 }
 
 .btn-ghost:link,
-.btn-ghost:visited{
+.btn-ghost:visited {
     border: 1px solid #e67e22;
     color: #e67e22;
 }
 
 .btn:hover,
-.btn:active{
+.btn:active {
     background-color: #cf6d17;
 }
 
@@ -78,7 +86,64 @@ h1 {
 }
 
 .btn-ghost:hover,
-.btn-ghost:active{
+.btn-ghost:active {
     border: 1px solid #cf6d17;
     color: #fff;
+}
+
+
+/* ------------------------------------------ */
+
+
+/* HEADER*/
+
+
+/* ------------------------------------------ */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
+}
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #e67e22;
 }

@@ -74,6 +74,7 @@ h1 {
     font-size: 240%;
     word-spacing: 4px;
     letter-spacing: 1px;
+    margin-bottom: 20px;
 }
 
 h2 {
@@ -159,7 +160,6 @@ a:active{
 .btn:visited {
     display: inline-block;
     padding: 10px 30px;
-    margin-bottom: 20px;
     font-weight: 300;
     border-radius: 50px;
     color: #fff;
@@ -437,4 +437,65 @@ cite img{
     border-radius: 50%;
     margin-right: 10px;
     vertical-align: middle;
+}
+
+/* ------------------------------------------ */
+
+
+/* PLAN*/
+
+
+/* ------------------------------------------ */
+
+.section-plan{
+    background-color: #f4f4f4;
+}
+
+.plan-box{
+    background-color: #fff;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 5%;
+    box-shadow: 4px 4px 4px #e8e8e8;
+}
+
+.plan-box div{
+    padding: 15px;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.plan-box div:first-child{
+    background-color: #fcfcfc;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.plan-box div:last-child{
+    text-align: center;
+    border: 0;
+}
+
+.plan-price{
+    font-size: 300%;
+    margin-bottom: 10px;
+    font-weight: 100;
+    color: #e67e22;
+}
+
+.plan-price span{
+    font-size: 30%;
+    font-weight: 300;
+    
+}
+
+.plan-price-meal{
+    font-size: 80%;
+}
+
+.plan-box ul{
+    list-style: none;
+}
+
+.plan-box ul li{
+    padding: 5px 0;
 }

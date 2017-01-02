@@ -600,6 +600,29 @@ input[type=checkbox]{
     outline: none;
 }
 
+.map-box{
+    width: 100%;
+    height: 550px;
+    position: relative;
+}
+
+.map{
+    width: 100%;
+    height: 550px;
+    z-index: 0;
+}
+
+.form-box{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: rgba(255,255,255,0.8);
+    z-index: 10;
+    height: 550px;
+    padding-top: 40px;
+    width: 50%;
+}
+
 /* ------------------------------------------ */
 
 
